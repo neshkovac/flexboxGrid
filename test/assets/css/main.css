@@ -43,15 +43,21 @@ body {
 .header,
 .footer {
     display: flex;
-    width: 40vw;
+    /* width: 40vw; */
     justify-content: center;
     background-color: #fff;
 }
 
+.main,
+.header,
+.footer {
+    width: 40vw;
+}
+
+
 .main {
     background-color: #fff;
     display: flex;
-    width: 40vw;
     height: 70vh;
     margin: 0 auto;
     justify-content: center;
@@ -83,6 +89,7 @@ body {
     height: 3vw;
     width: 3vw;
 }
+
 
 .col-2 .row:first-child,
 .col-2 .row:last-child {
